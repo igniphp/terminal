@@ -1,0 +1,39 @@
+{
+  "name": "igniphp/terminal",
+  "description": "Micro framework for terminal applications.",
+  "keywords": [
+    "terminal",
+    "cli",
+    "framework"
+  ],
+  "support": {
+    "issues": "https://github.com/igniphp/terminal/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dawid <krac> Kraczkowski",
+      "email": "dawid.kraczkowski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "igniphp/common": "^1.1.0",
+    "igniphp/validation": "^1.1.0",
+    "igniphp/container": "^1.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Igni\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IgniTest\\": "tests/"
+    }
+  }
+}
